@@ -119,6 +119,10 @@ PRODUCT_PACKAGES += \
     mkfs.exfat \
     mkfs.ntfs \
     mount.ntfs
+    
+# Google Assistant
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.opa.eligible_device=true
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
